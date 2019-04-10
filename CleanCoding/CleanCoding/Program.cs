@@ -18,6 +18,8 @@ namespace CleanCoding
             Console.WriteLine("Calculate down payment: press 1");
             Console.WriteLine("Calculate approximate loan amount: press 2");
             calculate(Console.ReadLine());
+
+            //Added feature
         }
 
         public static void calculate(string t)
